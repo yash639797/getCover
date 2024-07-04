@@ -15,19 +15,7 @@ import org.testng.asserts.SoftAssert;
 public class BaseClass {
 	public static WebDriver driver;
 	
-//	
-//	private static void startKeepAwake() {
-//        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
-//        scheduler.scheduleAtFixedRate(() -> {
-//            try {
-//                Robot robot = new Robot();
-//                robot.mouseMove(0, 0); // Move mouse to (0, 0)
-//                robot.mouseMove(1, 0); // Move mouse slightly to simulate activity
-//            } catch (AWTException e) {
-//                e.printStackTrace();
-//            }
-//        }, 0, 30, TimeUnit.SECONDS); // Run the task every 30 seconds
-//    }
+
 	@BeforeTest
 public void  getLaunch() throws InterruptedException
 {
@@ -40,7 +28,7 @@ try {
   driver.manage().window().maximize();
   driver.get("http://15.207.221.207/dashboard");
   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//  startKeepAwake();
+  System.out.println("hello saurav ");
 } catch (Exception e) {
 	System.out.println(e);
 }	
