@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="extentlisteners.ExtentListeners"></listener>
+</listeners>
+
+  <test name="get cover login page test">
+    <classes>
+     <class name="getcoverTest.LoginPageTest"/>
+    <class name="getcoverTest.BulkClaimTest"/>
+    
+    </classes>
+    
+   </test> 
+   <!--  <test name="get cover login page test1">
+    <classes>
+    <class name="getcoverTest.LoginPageTest"/>
+      <class name="getcoverTest.BulkAddTest"/>
+    </classes>
+    
+  </test> 
+  
+  <test name="get cover login page test2">
+    <classes>
+    <class name="getcoverTest.LoginPageTest"/>
+      <class name="getcoverTest.pricebooktest"/>
+    </classes>
+    
+  </test> 
+  
+   <test name="get cover login page test3">
+    <classes>
+    <class name="getcoverTest.LoginPageTest"/>
+      <class name="getcoverTest.pricebooktest"/>
+    </classes>
+    
+  </test> 
+   <test name="get cover login page test4">
+    <classes>
+    <class name="getcoverTest.LoginPageTest"/>
+      <class name="getcoverTest.pricebooktest"/>
+    </classes>
+    
+  </test> 
+   <test name="get cover login page test5">
+    <classes>
+    <class name="getcoverTest.LoginPageTest"/>
+      <class name="getcoverTest.pricebooktest"/>
+    </classes>
+    
+  </test>  -->
+  
+</suite> 
